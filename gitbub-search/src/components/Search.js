@@ -37,7 +37,7 @@ function Search({ searchUsers }) {
   }
 
   return (
-    <div className="flex flex-col items-center shadow-lg p-4 md:flex-row md:space-x-4 w-full mx-auto">
+    <div className="flex flex-col items-center shadow-lg p-4 md:flex-row md:space-x-4 w-full mx-auto ">
       <input 
         type="text" 
         value={userName} 
