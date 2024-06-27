@@ -145,7 +145,7 @@ function Main({ users }) {
                         <p className="text-sm text-black">@{user.login}</p>
                         <p className="text-sm text-black">{user.bio}</p>
                         <button 
-                            className="mt-2 px-3 py-2 bg-blue-500 text-white hover:bg-blue-700 rounded-md transition"
+                            className="mt-2 px-2 py-2 bg-blue-700 text-white hover:bg-blue-700 rounded-md transition"
                             onClick={() => window.open(user.html_url, "_blank")}
                         >
                             View Profile

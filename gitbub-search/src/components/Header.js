@@ -127,7 +127,7 @@ const Header = () => {
     <header className="bg-black p-4 flex-shrink-0">
       <nav className="flex items-center justify-between">
         <div className="flex items-center space-x-4">
-          <img src={logo} alt="Logo" className="w-10 p-2 sm:w-12 md:w-14 lg:w-16 rounded-full" />
+          <img src={logo} alt="Logo" className="w-14 p-2 sm:w-12 md:w-14 lg:w-16 rounded-full" />
         </div>
         <ul className="flex space-x-5 md:space-x-7 text-white text-medium sm:text-lg md:text-xl font-medium font-serif cursor-pointer">
           <li>Home</li>
