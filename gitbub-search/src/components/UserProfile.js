@@ -27,6 +27,7 @@ const UserProfile = () => {
       <div className="text-center">
         <h1 className="text-2xl font-bold mb-2">{user.login}</h1>
         {user.name && <p className="text-lg text-gray-700 mb-1 font-serif">{user.name}</p>}
+        {user.bio && <p className="text-lg text-gray-700 mb-1 font-serif">{user.bio}</p>}
         {user.location && <p className="text-gray-700 mb-4 font-serif">{user.location}</p>}
         <p className="text-black ">Followers: {user.followers}</p>
         <p className="text-black ">Following: {user.following}</p>

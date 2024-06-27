@@ -142,8 +142,9 @@ function Main({ users }) {
                     >
                         <img src={user.avatar_url} alt="profilepic" className="rounded-full mb-4 w-24 h-24" />
                         <h2 className="text-lg font-bold text-black">{user.name || user.login}</h2>
-                        <p className="text-sm text-black">@{user.login}</p>
                         <p className="text-sm text-black">{user.bio}</p>
+                        <p className="text-sm text-black">@{user.login}</p>
+                   
                         <button 
                             className="mt-2 px-2 py-2 bg-blue-700 text-white hover:bg-blue-700 rounded-md transition"
                             onClick={() => window.open(user.html_url, "_blank")}
