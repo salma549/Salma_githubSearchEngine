@@ -151,10 +151,12 @@ function Main({ users }) {
                             View Profile
                         </button>
                     </div>
-                ))}
+                ))} 
             </div>
         </center>
     );
 }
 
 export default Main;
+
+//
