@@ -140,6 +140,9 @@ const Header = () => {
           <li>
             <a href="mailto:salmasanubar786@gmail.com">Mail</a>
           </li>
+          <li>
+            <a href="User" target="_blank" rel="noopener noreferrer">UserProfile</a>
+          </li>
          
         </ul>
       </nav>

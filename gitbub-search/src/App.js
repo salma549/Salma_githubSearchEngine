@@ -90,6 +90,7 @@ import { Routes, Route } from 'react-router-dom';
 import Main from './components/Main';
 import Search from './components/Search';
 import UserProfile from './components/UserProfile';
+import Navbar from './components/NavBar';
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -120,7 +121,9 @@ function App() {
 
   return (
     <>
+   
       <Header />
+      <Navbar />
       <Search searchUsers={searchUsers} />
       <Routes>
         <Route path='/' element={<Main users={users} />} />
