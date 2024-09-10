@@ -130,7 +130,9 @@ const Header = () => {
           <img src={logo} alt="Logo" className="w-14 p-2 sm:w-12 md:w-14 lg:w-16 rounded-full" />
         </div>
         <ul className="flex space-x-5 md:space-x-7 text-white text-medium sm:text-lg md:text-xl font-medium font-serif cursor-pointer">
-          <li>Home</li>
+          <li>
+          <a href="/">Home</a>
+          </li>
           <li>
             <a href="https://github.com/salma549" target="_blank" rel="noopener noreferrer">GitHub</a>
           </li>
