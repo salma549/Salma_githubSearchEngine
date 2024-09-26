@@ -127,7 +127,7 @@ function App() {
       <Search searchUsers={searchUsers} />
       <Routes>
         <Route path='/' element={<Main users={users} />} />
-        <Route path='/user/:username' element={<UserProfile />} />
+        <Route path='/users/:username' element={<UserProfile />} />
       </Routes>
       <Footer />
     </>

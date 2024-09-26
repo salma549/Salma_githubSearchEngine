@@ -5,6 +5,7 @@ import React from 'react';
 import logo from '../images/logo.jpg';
 import github from '../images/github.jpg';
 
+
 const Header = () => {
   
 
@@ -30,6 +31,10 @@ const Header = () => {
           <li>
             <a href="User" target="_blank" rel="noopener noreferrer">UserProfile</a>
           </li>
+
+          {/* <Link to="/user/:username">
+          UserProfile
+          </Link> */}
          
         </ul>
       </nav>
